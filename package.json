@@ -48,6 +48,7 @@
     "ember-export-application-global": "^2.0.0",
     "ember-fastboot-app-tests": "^0.2.0",
     "ember-fetch": "3.4.0",
+    "ember-font-awesome": "^4.0.0-alpha.13",
     "ember-json-stringify-safe-shim": "^1.0.0",
     "ember-load-css": "^0.1.0",
     "ember-load-initializers": "^1.0.0",
