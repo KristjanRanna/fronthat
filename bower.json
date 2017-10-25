@@ -1,0 +1,6 @@
+{
+  "name": "fronthat",
+  "dependencies": {
+    "rrssb": "^1.14.0"
+  }
+}

@@ -2736,7 +2736,7 @@ ember-cli-babel@6.8.2, ember-cli-babel@^6.3.0, ember-cli-babel@^6.7.2, ember-cli
     clone "^2.0.0"
     ember-cli-version-checker "^2.0.0"
 
-ember-cli-babel@^5.1.5, ember-cli-babel@^5.1.6, ember-cli-babel@^5.1.7, ember-cli-babel@^5.1.9:
+ember-cli-babel@^5.1.3, ember-cli-babel@^5.1.5, ember-cli-babel@^5.1.6, ember-cli-babel@^5.1.7, ember-cli-babel@^5.1.9:
   version "5.2.4"
   resolved "https://registry.yarnpkg.com/ember-cli-babel/-/ember-cli-babel-5.2.4.tgz#5ce4f46b08ed6f6d21e878619fb689719d6e8e13"
   dependencies:
@@ -3564,6 +3564,13 @@ ember-service-worker@0.6.8:
     glob "^7.1.1"
     hash-for-dep "^1.0.2"
     rollup-plugin-replace "^1.1.1"
+
+ember-social@^0.3.0:
+  version "0.3.0"
+  resolved "https://registry.yarnpkg.com/ember-social/-/ember-social-0.3.0.tgz#ed154fc85f56fe7ca3a59f285feb9700b333a70d"
+  dependencies:
+    ember-cli-babel "^5.1.3"
+    ember-cli-htmlbars "^1.0.0"
 
 ember-source@~2.15.0:
   version "2.15.2"

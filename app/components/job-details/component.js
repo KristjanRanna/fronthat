@@ -10,7 +10,7 @@ export default Component.extend(ScrollToTop, {
   attributeBindings: ['itemscope', 'itemtype'],
 
   layout: hbs`
-    <div class="job-details-main-toolbar">
+    <div class="job-details-main-toolbar-title">
       <h1 itemprop="title">{{job.attributes.title}}</h1>
     </div>
     <div class="job-details-secondary-toolbar">
@@ -31,10 +31,26 @@ export default Component.extend(ScrollToTop, {
         Apply
       </a>
     </div>
-    <div class="report-container">
-      <p>
-        Not a remote job? <a href="mailto:the@fronthat.com" rel="noopener noreferrer" target="_blank"> Please let us know!</a>
-      </p>
-    </div>
+    <form action="https://www.getdrip.com/forms/64302472/submissions" method="post">
+      <div class="subscribe-share-report-area-container">
+        <div class="subscribe-share-report-area">
+          <h4 class="subscribe-header">Be the first one to see similar job postings</h4>
+          <label class="subscribe-label" for="fields[email]">Email:</label>
+          <input class="email-input" type="email" placeholder="my@email.com" name="fields[email]" id="fields[email]" value="" />
+          <input class="nav-button subscribe-button" type="submit" name="submit" value="Subscribe" />
+         </div>
+          <div class="subscribe-share-report-area social-share">
+          <h4 class="subscribe-header">Share this job posting</h4>
+            {{twitter-share count='none'}}
+            {{linkedin-share}}
+            {{#email-share}}
+            {{fa-icon "envelope"}} Email a friend
+            {{/email-share}}
+        <p>
+       Not a remote job? <a href="mailto:the@fronthat.com" rel="noopener noreferrer" target="_blank"> Please let us know!</a>
+        </p>
+         </div>
+      </div>
+    </form>
   `
 });

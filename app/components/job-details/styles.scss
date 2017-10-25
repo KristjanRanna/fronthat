@@ -15,6 +15,57 @@
     .report-container {
       font-size: .8125rem;
     }
+    .subscribe-share-report-area h4 {
+      font-size: 0.8rem;
+    }
+    .subscribe-share-report-area p {
+      font-size: 0.8rem;
+    }
+    .subscribe-button {
+      margin-top: 0;
+    }
   }
 
+  @media screen and (min-width: 569px) {
+    .social-share {
+      float: right;
+      white-space: nowrap;
+    }
+  }
+
+  .subscribe-share-report-area-container {
+    overflow: hidden;
+    background-color: #f7f7f7;
+    overflow: hidden;
+    white-space: nowrap;
+    margin-top: -0.5rem;
+    width: 100%;
+  }
+
+  .email-input {
+    background-color: #EEE;
+    font-size: 1rem;
+    margin: 0 0.5rem;
+    height: 100%;
+  }
+
+  @media (max-width: 768px) {
+    .subscribe-label, .email-input {
+      margin-bottom: 10px;
+    }
+  }
+
+  .subscribe-share-report-area {
+    margin: 0 20px;
+    background-color: #f7f7f7;
+    padding-bottom: 100%;
+    margin-bottom: -100%;
+    align-items: right;
+    float: left;
+  }
+
+  /*.social-share {
+    float: right;
+    white-space: nowrap;
+  }*/
 }
